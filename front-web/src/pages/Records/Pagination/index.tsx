@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css'
 
 type Props = {
-    totalPages : number;
+    totalPages ?: number;
     goToPage : Function;
     activePage : number;
 }
